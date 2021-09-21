@@ -18,7 +18,8 @@ body {
 
 .list {
     list-style-type: none;
-    padding: 70px 160px 70px 160px;
+    padding: 70px 0px 70px 210px;
+    margin: 0px;
 }
 
 .list-item {
@@ -48,12 +49,18 @@ body {
 .page {
     list-style-type: none;
     padding-left: 0px;
-    margin-right: -4px;
+    /* margin-right: -4px; */
+    margin: 0px -4px 0px 0px;
 }
 
 .page-item {
     display: inline-block;
     width: 420px;
+    margin: 0px 0px 135px 0px;
+}
+
+.page-item:nth-last-child(-n+2) {
+    margin: 0px 0px 50px 0px;
 }
 
 .page-item:nth-child(2n+1) {
@@ -81,13 +88,8 @@ h2 {
 }
 
 .text {
-    margin: 0px 0px 135px 0px;
+    margin: 0px 0px 0px 0px;
 }
-
-
-/* .text:nth-last-child(-n+2) {
-    margin: 0px 0px 50px 0px;
-} */
 
 button {
     font-size: 20px;
